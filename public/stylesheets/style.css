@@ -1,0 +1,48 @@
+body {
+  padding: 50px;
+  background: rgba(100, 100, 100, 0.5);
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+.topnav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: -webkit-linear-gradient(rgba(20,20,20,0.6), rgba(20,20,20,0.87));
+	box-shadow: 0 3px 10px gray;
+}
+
+.topnav .brand {
+	color: rgba(220,220,220,1);
+	margin: 8px 5px 5px 0;
+	padding: 0 15px 6px 12px;
+	font: 20px Arial, sans-serif;
+	border-right: solid 1px rgba(200,200,200,0.7);
+	text-align: center;
+	line-height: 30px;
+	float: left;
+	text-shadow: 1px 1px 10px rgba(243, 0,230,0.9);
+}
+
+.photoFrame {
+	border: solid 10px rgba(50,50,50,0.8);
+	width: 75%;
+	height: 100%;
+	background: white;
+	margin: 20px 50px 50px 0;
+}
+
+.topnav ul {
+	list-style-type: none;
+}
+
+.menuItems li{
+	font: 16px Helvetica;
+	color: whitesmoke;
+	padding: 2px 20px 0 20px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}

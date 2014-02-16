@@ -1,0 +1,1 @@
+<canvas id="mainPhoto" class="photoFrame"></canvas>
