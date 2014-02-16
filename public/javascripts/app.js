@@ -10,11 +10,13 @@ define(["routes/router", "controllers/applicationController", "views/application
 
 				this.render('photoFrame', {
 					into: 'application',
-					outlet: 'main'
+					outlet: 'main',
+					controller: 'photoFrame'
 				})
 				this.render('navigation', {
 					into: 'application',
-					outlet: 'navBar'
+					outlet: 'navBar',
+					controller: 'navigation'
 				})
 			}
 		})

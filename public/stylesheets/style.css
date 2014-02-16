@@ -39,10 +39,15 @@ body {
 }
 
 .menuItems li{
+	float: left;
+}
+
+.menuItems button {
+	border: none;
+	background: transparent;
 	font: 16px Helvetica;
 	color: whitesmoke;
 	padding: 2px 20px 0 20px;
-	float: left;
 	text-align: center;
 	cursor: pointer;
 }
